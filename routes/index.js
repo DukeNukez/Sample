@@ -7,7 +7,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/MapApp', function(req, res, next) {
-  res.render('index2.html');
+  res.render('index2');
 });
+
+
 
 module.exports = router;
