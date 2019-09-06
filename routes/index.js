@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/MapApp', function(req, res, next) {
+  res.render('index2.html');
+});
+
 module.exports = router;
